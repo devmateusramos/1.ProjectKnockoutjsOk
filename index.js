@@ -1,6 +1,6 @@
 function CounterViewModel() {
   var self = this;
-  self.userName = ko.observable('Wayne');
+  self.userName = ko.observable('Mateus');
   self.count = ko.observable(0);
 
   self.increase = function () {
